@@ -1,0 +1,337 @@
+header {
+   background: #b9013d;
+}
+
+.carous {
+   margin-top: 50px;
+}
+
+.text10 {
+    padding-top: 90px;
+}
+
+.text11 {
+    margin-bottom: 50px;
+    margin-left: -3px;
+}
+
+.foto1 {
+	margin-top: 50px;
+	margin-left: -200px;
+	margin-right: 100px;
+}
+
+.foto2 {
+	margin-top: 50px;
+
+}
+
+.link1 {
+	margin-left: 135px;
+}
+
+.text5 {
+   padding-top: 50px;
+}
+
+.foto3 {
+	margin-top: 50px;
+	margin-left: -200px;
+}
+
+.video1 {
+	margin-top: 50px;
+}
+
+.foto6 {
+	margin-top: 50px;
+	margin-left: -200px;
+}
+
+.foto7 {
+	margin-top: 50px;
+    margin-left: -46px;
+}
+
+.foto8 {
+	margin-top: 50px;
+    margin-left: 71px;	
+}
+
+.foto9 {
+	margin-top: 50px;
+	margin-left: -200px;
+}
+
+.divider {
+	color: #b9013d;
+	margin-top: 50px;
+	text-align:center;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.divider hr {
+	width: 40%;
+	margin-top: 30px;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.text1 {
+	color: #b9013d;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text2 {
+	color: #b9013d;
+    font-family: 'Montserrat', sans-serif;
+	margin-top: 10px;
+    padding-left: 50px;
+}
+
+.text3 {
+	color: #b9013d;
+    font-family: 'Montserrat', sans-serif;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+a.btn1 {
+    display: inline-block;	
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    border: 1px solid #b9013d;
+    transition: 1s; 
+    color: #b9013d;
+    font-family: 'Montserrat', sans-serif;
+    padding: .5em 2em;
+}
+
+a.btn1:hover { 
+	background: #b9013d;
+	color: white;
+}
+
+a.btn2 {
+    display: inline-block;	
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    border: 1px solid #b9013d;
+    transition: 1s; 
+    color: #b9013d;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 75px;
+    padding: 25px;
+    margin: 60px;
+    text-align: center;
+}
+
+a.btn2:hover { 
+	background: #b9013d;
+	color: white;
+}
+
+a.btn3 {
+    display: inline-block;	
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    border: 1px solid white;
+    transition: 1s; 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    height: 50px;
+    padding-top: 12.5px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -14px;
+}
+
+a.btn3:hover { 
+	background: white;
+	color: #b9013d;
+}
+
+h1 {
+	color: #b9013d;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 75px;
+}
+
+.slick-prev:before, .slick-next:before { 
+    color:#b9013d !important;
+}
+
+.logo {
+    padding-top: 50px;
+}
+
+.text4 {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 50px;
+	font-size: 18px;
+	color: white;
+}
+
+.text5 {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	margin-left: 50px;
+}
+
+.text5 a {
+   color: white;
+   font-size: 10pt;
+}
+
+footer {
+	background: #b9013d;
+}
+
+@media (max-width: 767px) {
+	.btn {
+		margin-left: 50px;
+	}
+
+	.text4 {
+		margin-left: 50px;
+	}
+
+	.text6 {
+		margin-left: -25px;
+	}
+
+	.btn22 {
+		margin-left: -10px;
+	}
+    
+    .foto9 img {
+    	width: 100%;
+    	height: 50%;
+    }
+
+    .video1 iframe {
+    	width: 100%;
+    	height: 100%;
+    	margin-top: -50px;
+    }
+
+    .foto3 img {
+    	display: none;
+    }
+
+    .text5 h1 {
+    	font-size: 30pt;
+    	margin-left: -50px;
+    }
+
+    .slide img {
+    	width: 100%;
+    }
+
+    .carous img {
+    	width: 100%;	
+    }
+
+    .logo1 {
+        margin-left: 53px;
+    }
+
+    .text10 {
+        margin-top: -100px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.text5 {
+		margin-left: 0px;
+	}
+
+	.foto9 img {
+		width: 100%;
+		height: 50%;
+	}
+
+    .video1 iframe {
+        width: 97%;
+    }
+
+	.foto3 img {
+		width: 75%;
+		margin-left: 200px;
+	}
+
+	.slide img {
+    	width: 80%;
+    }
+
+    .carous img {
+    	width: 100%;	
+    }  
+
+    .text10 {
+        margin-top: -100px;
+        margin-bottom: 50px;
+        margin-left: -3px; 
+    }  
+
+    .btn22 {
+        margin-left: -7.5px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.carous img {
+    	width: 100%;	
+    } 
+
+    .text3 {
+    	margin-left: 0px;
+    }
+    
+    .text2 {
+    	padding-left: 0px;
+    }
+    
+    .divider  {
+    	font-size: 20pt;
+    }
+
+    .divider hr {
+	    margin-top: 20px;
+    }
+
+    .btn22 {
+        margin-left: -50px;
+    }
+
+    .foto9 img {
+    	width: 100%;
+    	height: 50%;
+    }
+
+    .foto3 img {
+    	width: 70%;
+    	height: 50%;
+    	margin-left: 150px;
+    }
+
+    .video1 iframe {
+    	width: 100%;
+    	height: 19em;
+    }
+ 
+}
